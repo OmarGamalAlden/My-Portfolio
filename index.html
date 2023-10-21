@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OG Portfolio</title>
+    <!-- font-awesome cdn css file -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- bootstarp cdn css file -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css"
+      integrity="sha512-b2QcS5SsA8tZodcDtGRELiGv5SaKSk1vDHDaQRda0htPYWZ6046lr3kJ5bAAQdpV2mmA/4v0wQF9MyU6/pDIAg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- AOS Animation libarary css file -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- main project css file -->
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <!-- start fixed top navbar -->
+    <nav
+      class="top_navbar d-flex align-items-center justify-content-between flex-row-reverse"
+    >
+      <div class="right_nav">
+        <button class="mode_button">
+          <img class="light_mode" src="./images/sun.png" alt="light mode" />
+          <img class="night_mode" src="./images/moon.png" alt="night mode" />
+        </button>
+      </div>
+      <div class="left_nav d-flex align-items-center">
+        <div class="logo_img">
+          <img src="./images/logo.jpg" alt="logo image" />
+        </div>
+        <h5>&lt; Software<br /><span class="span-eng">Engineer</span> /&gt;</h5>
+      </div>
+    </nav>
+    <!-- end fixed top navbar -->
+
+    <!-- start header section -->
+    <header id="Home" class="header_section vh-100 d-flex align-items-center">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-4 d-flex justify-content-center">
+            <div class="header_img"></div>
+          </div>
+          <div class="col-md-8">
+            <div class="header_info">
+              <h4>
+                Hi There,<br /><span class="main_name"
+                  >i'm OMAR GAMAL AL-DIN 👋</span
+                >
+              </h4>
+              <h1 class="h2">I build websites with MERN Stack development</h1>
+              <p>
+                I am a self-taught
+                <span>full-stack developer</span> and aspiring
+                <span>Software Engineer</span>.
+              </p>
+              <p>
+                I love building websites that are responsive, accessible, and
+                user-friendly with focus on clean code and scalability.
+              </p>
+              <button><a href="#Projects">Veiw My Projects</a></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- end header section -->
+
+    <!-- start about section -->
+    <section id="About" class="about_section py-5">
+      <div class="section_line position-relative text-center mb-5">
+        <span>ABOUT ME</span>
+        <h2>ABOUT<span>ME</span></h2>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-5">
+            <div
+              data-aos="slide-right"
+              data-aos-duration="4000"
+              class="personal_img"
+            >
+              <img src="./images/personal_img.jpg" alt="persoanl photo" />
+            </div>
+          </div>
+          <div class="col-md-5">
+            <div class="about_deatils w-100">
+              <h3>INFORMATION ABOUT ME</h3>
+              <p>
+                I am Omar Gamal, a 25-year-old Egyptian. I completed my studies
+                in the electronics and communication engineering department of
+                the faculty of engineering at Zagazig Higher Institute of
+                Engineering and Technology (ZHIET).
+              </p>
+              <p>
+                As a motivated and skilled software engineer, I am passionate
+                about creating innovative and high-quality software solutions. I
+                have a strong foundation in programming principles and am always
+                looking for ways to learn and grow as a developer. In my free
+                time, I enjoy staying up-to-date with the latest technologies
+                and participating in new challenges and coding. I am excited to
+                use my skills and knowledge to make meaningful contributions to
+                the tech industry.
+              </p>
+              <p>
+                So, am looking for an opportunity to share my passion and
+                knowledge with like-minded people. Eagar to gain experience and
+                learn more to bring better quality solutions to the world.
+              </p>
+              <button>
+                <a
+                  target="_blank"
+                  href="https://drive.google.com/file/d/1SESXT9H9c8yY0JTaiYnJLtlh0vcK_IGg/view?usp=sharing"
+                  >Resume</a
+                >
+              </button>
+            </div>
+          </div>
+          <div class="col-md-10">
+            <div class="technologies_used pt-5">
+              <p>Technologies & tools which i use.</p>
+              <div class="technology_cards d-flex flex-wrap"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end about section -->
+
+    <!-- start projects section -->
+    <section id="Projects" class="projects_section py-5">
+      <div class="section_line position-relative text-center mb-5">
+        <span>FEATURED PROJECTS</span>
+        <h2>PROJECTS<span> I DO</span></h2>
+      </div>
+      <div class="container">
+        <div class="row justify-content-center g-4">
+          <div class="col-md-5">
+            <section
+              data-aos="flip-down"
+              data-aos-duration="4000"
+              class="project_card"
+            >
+              <figure class="position-relative">
+                <img src="./images/landinf-page.png" alt="landing page" />
+                <section class="project_icons">
+                  <a
+                    class="mx-1"
+                    target="_blank"
+                    href="https://github.com/OmarGamalAlden/E-Commerce-web-page"
+                  >
+                    <i class="fa-brands fa-github fa-2x"></i>
+                  </a>
+                  <a
+                    class="mx-1"
+                    target="_blank"
+                    href="https://omargamalalden.github.io/E-Commerce-web-page/"
+                  >
+                    <i class="fa-solid fa-globe fa-2x"></i>
+                  </a>
+                </section>
+              </figure>
+              <p class="text-center fw-bold">E-commerce - Landing page</p>
+            </section>
+          </div>
+          <div class="col-md-5">
+            <section
+              data-aos="flip-down"
+              data-aos-duration="4000"
+              class="project_card"
+            >
+              <figure class="position-relative">
+                <img src="./images/crud-operation.png" alt="landing page" />
+                <section class="project_icons">
+                  <a
+                    class="mx-1"
+                    target="_blank"
+                    href="https://github.com/OmarGamalAlden/CRUD-Operation"
+                  >
+                    <i class="fa-brands fa-github fa-2x"></i>
+                  </a>
+                  <a
+                    class="mx-1"
+                    target="_blank"
+                    href="https://omargamalalden.github.io/CRUD-Operation/"
+                  >
+                    <i class="fa-solid fa-globe fa-2x"></i>
+                  </a>
+                </section>
+              </figure>
+              <p class="text-center fw-bold">C R U D</p>
+            </section>
+          </div>
+          <div class="col-md-5">
+            <section
+              data-aos="flip-down"
+              data-aos-duration="4000"
+              class="project_card"
+            >
+              <figure class="position-relative">
+                <img src="./images/e-commerce-be.png" alt="landing page" />
+                <section class="project_icons">
+                  <a
+                    class="mx-1"
+                    target="_blank"
+                    href="https://github.com/OmarGamalAlden/E-Commerce-App-BE"
+                  >
+                    <i class="fa-brands fa-github fa-2x"></i>
+                  </a>
+                  <a
+                    class="mx-1"
+                    target="_blank"
+                    href="https://e-commerce-app-be.vercel.app/"
+                  >
+                    <i class="fa-solid fa-globe fa-2x"></i>
+                  </a>
+                </section>
+              </figure>
+              <p class="text-center fw-bold">E-Commerce App - server side</p>
+            </section>
+          </div>
+          <div class="col-md-5">
+            <section
+              data-aos="flip-down"
+              data-aos-duration="4000"
+              class="project_card"
+            >
+              <figure class="position-relative">
+                <img src="./images/gameOver-react.js.png" alt="landing page" />
+                <section class="project_icons">
+                  <a
+                    class="mx-1"
+                    target="_blank"
+                    href="https://github.com/OmarGamalAlden/GameOver-ReactProject"
+                  >
+                    <i class="fa-brands fa-github fa-2x"></i>
+                  </a>
+                  <a
+                    class="mx-1"
+                    target="_blank"
+                    href="https://omargamalalden.github.io/GameOver-ReactProject"
+                  >
+                    <i class="fa-solid fa-globe fa-2x"></i>
+                  </a>
+                </section>
+              </figure>
+              <p class="text-center fw-bold">Game Over - front side</p>
+            </section>
+          </div>
+          <div class="col-md-5">
+            <section
+              data-aos="flip-down"
+              data-aos-duration="4000"
+              class="project_card"
+            >
+              <figure class="position-relative">
+                <img src="./images/NOXE-Movies.png" alt="landing page" />
+                <section class="project_icons">
+                  <a
+                    class="mx-1"
+                    target="_blank"
+                    href="https://github.com/OmarGamalAlden/movies-project-mern-BE"
+                  >
+                    <i class="fa-brands fa-github fa-2x"></i>
+                  </a>
+                  <a
+                    class="mx-1"
+                    target="_blank"
+                    href="https://omargamalalden.github.io/movies-project-mern-FE/"
+                  >
+                    <i class="fa-solid fa-globe fa-2x"></i>
+                  </a>
+                </section>
+              </figure>
+              <p class="text-center fw-bold">NOXE-Movies - full stack</p>
+            </section>
+          </div>
+          <div class="col-md-5">
+            <section
+              data-aos="flip-down"
+              data-aos-duration="4000"
+              class="project_card"
+            >
+              <figure class="position-relative">
+                <img src="./images/weather-condition.png" alt="landing page" />
+                <section class="project_icons">
+                  <a
+                    class="mx-1"
+                    target="_blank"
+                    href="https://github.com/OmarGamalAlden/weather-app"
+                  >
+                    <i class="fa-brands fa-github fa-2x"></i>
+                  </a>
+                  <a
+                    class="mx-1"
+                    target="_blank"
+                    href="https://omargamalalden.github.io/weather-app/"
+                  >
+                    <i class="fa-solid fa-globe fa-2x"></i>
+                  </a>
+                </section>
+              </figure>
+              <p class="text-center fw-bold">Weather App - front side</p>
+            </section>
+          </div>
+          <a
+            target="_blank"
+            class="visit_btn"
+            href="https://github.com/OmarGamalAlden"
+          >
+            There is mooore!! visit my GitHub
+            <i class="fa-brands fa-github"></i>.
+          </a>
+        </div>
+      </div>
+    </section>
+    <!-- end projects section -->
+
+    <!-- start contact section -->
+    <section id="Contact" class="contact_section py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 d-flex align-items-center">
+            <figure>
+              <img class="w-100" src="./images/email.png" alt="email page" />
+            </figure>
+          </div>
+          <div class="col-md-6 d-flex align-items-center">
+            <section class="contact_inputs">
+              <p>
+                Need <br />
+                a Professional <br />
+                developer.
+              </p>
+              <span>I'm ready to work with you!!</span>
+              <br />
+              <a
+                data-aos="fade-in"
+                data-aos-delay="500"
+                data-aos-duration="4000"
+                class="email_btn"
+                target="_blank"
+                href="mailto:omargamalalden@gmail.com?subject=Contact"
+              >
+                Send Me an Email
+              </a>
+            </section>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end contact section -->
+
+    <!-- start footer section -->
+    <footer
+      class="d-flex justify-content-between align-items-center container py-3"
+    >
+      <p>&copy; 2023 OMAR GAMAL AL-DEN</p>
+      <div class="icons d-flex justify-content-center align-items-center">
+        <a
+          class="mx-2"
+          target="_blank"
+          href="https://github.com/OmarGamalAlden"
+        >
+          <i class="fa-brands fa-github"></i>
+        </a>
+        <a
+          class="mx-2"
+          target="_blank"
+          href="https://www.linkedin.com/in/omargamalalden"
+        >
+          <i class="fa-brands fa-linkedin"></i>
+        </a>
+        <a
+          class="mx-2"
+          target="_blank"
+          href="https://wa.me/+201003462624?text=I'm%20interested%20in%20your%20background%20and..."
+        >
+          <i class="fa-brands fa-whatsapp"></i>
+        </a>
+      </div>
+    </footer>
+    <!-- end footer section -->
+
+    <!-- start fixed bottom navbar -->
+    <nav data-aos="slide-left" data-aos-duration="4000" class="bottom_navbar">
+      <a href="#Home"><i class="fas fa-home"></i></a>
+      <a href="#About"><i class="fas fa-user"></i></a>
+      <a href="#Projects"><i class="fas fa-briefcase"></i></a>
+      <a href="#Contact"><i class="fa-solid fa-envelope"></i></a>
+      <span class="section_name"></span>
+    </nav>
+    <!-- end fixed bottom navbar -->
+
+    <!-- ******************************************************************************************* -->
+    <!-- font awesome cdn js file -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"
+      integrity="sha512-uKQ39gEGiyUJl4AI6L+ekBdGKpGw4xJ55+xyJG7YFlJokPNYegn9KwQ3P8A7aFQAUtUsAQHep+d/lrGqrbPIDQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <!-- bootstarp cdn js file -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.min.js"
+      integrity="sha512-WW8/jxkELe2CAiE4LvQfwm1rajOS8PHasCCx+knHG0gBHt8EXxS6T6tJRTGuDQVnluuAvMxWF4j8SNFDKceLFg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <!-- Jquery cdn js file -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+      integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <!-- AOS Animation libarary js file -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <!-- fire aos animation libaray -->
+    <script>
+      AOS.init();
+    </script>
+    <!-- main project js file -->
+    <script src="./js/main.js"></script>
+  </body>
+</html>
