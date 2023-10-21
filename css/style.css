@@ -129,15 +129,15 @@ body {
 @media (min-width: 320px) and (max-width: 480px) {
   /* Mobile devices */
   .left_nav .logo_img img {
-    width: 55px;
-    height: 55px;
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
   }
   .top_navbar {
-    padding: 12px 25px;
+    padding: 10px 25px;
   }
   .left_nav h5 {
-    font-size: 17px;
+    font-size: 15px;
     margin: 0px;
     padding: 3px;
   }
@@ -287,9 +287,12 @@ body {
 /* start media queries styling */
 @media (min-width: 320px) and (max-width: 480px) {
   /* Mobile devices */
+  .header_section {
+    padding-top: 45px;
+  }
   .header_section .header_img {
-    width: 200px;
-    height: 200px;
+    width: 160px;
+    height: 160px;
   }
   .header_section .header_info h4 {
     font-size: 1.2rem;
@@ -298,13 +301,13 @@ body {
   }
   .header_section .header_info h1 {
     margin-top: 9px;
-    font-size: 1.29rem;
+    font-size: 1rem;
     text-align: center;
     margin-bottom: 0px;
   }
   .header_section .header_info p {
     padding-top: 10px !important;
-    font-size: 1.1rem;
+    font-size: 0.99rem;
     font-weight: 600;
     text-align: center;
   }
@@ -444,8 +447,7 @@ body {
     text-align: center;
   }
   .about_section .technologies_used p {
-    line-height: 0.5rem;
-    font-size: 1.4rem;
+    font-size: 1rem;
   }
   .about_section .technologies_used .technology_cards {
     justify-content: center;
@@ -472,8 +474,7 @@ body {
     align-items: normal;
   }
   .about_section .technologies_used p {
-    line-height: 0.8rem;
-    font-size: 1.59rem;
+    font-size: 1.5rem;
   }
   .about_section .technologies_used .technology_cards {
     justify-content: center;
@@ -543,9 +544,15 @@ body {
 
 @media (min-width: 320px) and (max-width: 480px) {
   /* Mobile devices */
+  .visit_btn {
+    font-size: 14px;
+  }
 }
 @media (min-width: 481px) and (max-width: 768px) {
   /* iPads, Tablets */
+  .visit_btn {
+    font-size: 16px;
+  }
 }
 
 /* end media queries styling */
@@ -587,15 +594,15 @@ body {
 @media (min-width: 320px) and (max-width: 480px) {
   /* Mobile devices */
   .contact_section .contact_inputs P {
-    font-size: 55px;
+    font-size: 40px;
   }
   .contact_section .contact_inputs span {
-    font-size: 28px;
+    font-size: 20px;
     font-weight: var(--font-weight-3);
   }
   .contact_section .contact_inputs a {
     padding: 9px 13px;
-    font-size: 28px;
+    font-size: 22px;
     border-radius: var(--main-number);
     margin-bottom: 20px;
   }
@@ -603,15 +610,15 @@ body {
 @media (min-width: 481px) and (max-width: 768px) {
   /* iPads, Tablets */
   .contact_section .contact_inputs P {
-    font-size: 52px;
+    font-size: 45px;
   }
   .contact_section .contact_inputs span {
-    font-size: 29px;
+    font-size: 26px;
     font-weight: var(--font-weight-3);
   }
   .contact_section .contact_inputs a {
     padding: 9px 13px;
-    font-size: 29px;
+    font-size: 27px;
     border-radius: var(--main-number);
     margin-bottom: 20px;
   }
@@ -636,4 +643,15 @@ footer .icons a:hover {
   background-color: rgba(173, 170, 170, 0.35);
   color: var(--main-color);
 }
+
+/* start media queries styling */
+
+@media (min-width: 320px) and (max-width: 480px) {
+  /* Mobile devices */
+  footer p {
+    font-size: 12px;
+  }
+}
+
+/* end media queries styling */
 /* end footer section */
